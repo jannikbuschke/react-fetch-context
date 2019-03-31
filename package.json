@@ -1,0 +1,30 @@
+{
+  "name": "@glue/react-fetch-context",
+  "version": "0.1.0",
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "description": "A react context that exposes fetch, in order to allow reversing the dependency in fetch",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/types.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 17",
+    "react-dom": ">= 16.8.0 < 17"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.9",
+    "@types/node": "11.10.4",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "@types/react-dom": "16.8.2",
+    "typescript": "3.4.1",
+    "tslib": "1.9.3"
+  }
+}
