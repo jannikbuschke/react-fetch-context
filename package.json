@@ -1,11 +1,11 @@
 {
-  "name": "@glue/react-fetch-context",
+  "name": "@jbuschke/react-fetch-context",
   "version": "0.1.0",
   "private": false,
   "files": [
     "lib"
   ],
-  "description": "A react context that exposes fetch, in order to allow reversing the dependency in fetch",
+  "description": "A react context that simply exposes fetch, in order to allow reversing the dependency on it",
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./lib/types.d.ts",
