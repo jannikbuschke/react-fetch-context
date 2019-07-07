@@ -1,5 +1,5 @@
 import * as React from "react";
 
-export const FetchContext = React.createContext(fetch);
+type Fetch = <T>(input: RequestInfo, init?: RequestInit, additionalInfo?: T) => Promise<Response>;
 
-export const Fetch = FetchContext;
+export const FetchContext = React.createContext<Fetch>(fetch);
