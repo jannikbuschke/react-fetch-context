@@ -1,6 +1,6 @@
 {
   "name": "@jbuschke/react-fetch-context",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "files": [
     "lib"
@@ -19,12 +19,12 @@
     "react-dom": ">= 16.8.0 < 17"
   },
   "devDependencies": {
-    "@types/jest": "24.0.11",
-    "@types/node": "11.13.4",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "@types/react-dom": "16.8.4",
-    "typescript": "3.6.2",
-    "tslib": "1.9.3"
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.11",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "@types/react-dom": "16.9.1",
+    "typescript": "3.6.3",
+    "tslib": "1.10.0"
   }
 }
